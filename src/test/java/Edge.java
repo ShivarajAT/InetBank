@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Edge {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method
 
 		System.setProperty("webdriver.edge.driver", "C:\\InetBanking_New\\Drivers\\msedgedrivers.exe");
 
@@ -20,7 +20,7 @@ public class Edge {
 		WebDriver EDdriver = new EdgeDriver();
 
 		EDdriver.manage().window().maximize();
-
+  
 		// Open a website
 		EDdriver.get("https://www.amazon.com");
 
